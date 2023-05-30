@@ -596,7 +596,7 @@ const styles = StyleSheet.create({
     }),
   },
   selectedTrack: {
-    backgroundColor: '#3EB8B0'
+    backgroundColor: 'black'
   },
   markerContainer: {
     position: 'absolute',
