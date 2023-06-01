@@ -38,6 +38,9 @@ export interface LabelProps {
 export interface MultiSliderProps {
     values?: number[];
     values2?: number[];
+
+    secondSlider?: boolean;
+    firstSlider?: boolean;
     
     onValuesChange?: (values: number[]) => void;
     onValuesChangeStart?: () => void;
