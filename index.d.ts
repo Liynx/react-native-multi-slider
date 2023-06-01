@@ -37,10 +37,15 @@ export interface LabelProps {
 
 export interface MultiSliderProps {
     values?: number[];
-
+    values2?: number[];
+    
     onValuesChange?: (values: number[]) => void;
     onValuesChangeStart?: () => void;
     onValuesChangeFinish?: (values: number[]) => void;
+
+    onValues2Change?: (values: number[]) => void;
+    onValues2ChangeStart?: () => void;
+    onValues2ChangeFinish?: (values: number[]) => void;
 
     sliderLength?: number;
     touchDimensions?: {
